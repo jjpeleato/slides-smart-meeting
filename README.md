@@ -113,3 +113,19 @@ The present project uses several technologies and tools for the automation and d
 15. [Security.txt](https://securitytxt.org/)
 
 **Note:** Thanks all people to work on these projects.
+
+### Clarifications
+
+1. It is very important that if you deploy the project to publish. The **DocumentRoot** on the VirtualHost has to point to the **public/** directory. 
+2. At the moment you can not update the `gulp-imagemin` package because it generates an error. I will investigate in the following commitments. 
+3. You can not update the `stylelint`, `stylelint-config-standard` and `stylelint-scss` because `gulp-stylelint` package cannot work with them.
+
+### Others clarifications
+
+1. It is possible that on Mac OS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
+
+## Finally
+
+More information on the following commits. If required.
+
+Grettings [**@jjpeleato**.](https://www.jjpeleato.com/)

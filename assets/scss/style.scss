@@ -1,0 +1,22 @@
+/* Style
+--------------------------------------------------------------------------------------------------------------------- */
+
+.reveal {
+  table {
+    font-size: 22px;
+
+    thead {
+      font-weight: bold;
+      color: white;
+      background: black;
+    }
+  }
+
+  section {
+    img {
+      border: 0 none;
+      box-shadow: none;
+      max-width: 500px;
+    }
+  }
+}
