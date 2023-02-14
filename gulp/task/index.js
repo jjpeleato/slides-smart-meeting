@@ -8,6 +8,8 @@ import { clean } from './clean';
 import { css } from './styles';
 import { cssAssets } from './styles';
 import { fontAssets } from './styles';
+import { images } from './images';
+import { imagesAssets } from './images';
 import { js } from './scripts';
 import { jsAssets } from './scripts';
 import { jsCopy } from './scripts';
@@ -30,6 +32,7 @@ gulp.task(
 		js,
 		jsAssets,
 		jsCopy,
+		images,
 	)
 );
 gulp.task('clean', clean);
