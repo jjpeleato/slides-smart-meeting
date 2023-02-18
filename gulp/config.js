@@ -49,6 +49,28 @@ const paths = {
 		],
 		dest: theme + 'css/vendor/fonts/'
 	},
+	imgAssets: {
+		src: [
+			'./assets/img/**/*.svg',
+			'./assets/img/**/*.png',
+			'./assets/img/**/*.jpeg',
+			'./assets/img/**/*.jpg',
+			'./assets/img/**/*.gif',
+			'./assets/img/**/*.ico'
+		],
+		vendor: [],
+		dest: theme + 'img/',
+		destVendor: theme + 'img/vendor/'
+	},
+	fontawesome: {
+		css: [
+			'./node_modules/@fortawesome/fontawesome-free/css/*',
+		],
+		webfonts: [
+			'./node_modules/@fortawesome/fontawesome-free/webfonts/*',
+		],
+		dest: theme + "fontawesome/",
+	}
 };
 
 /* Options */

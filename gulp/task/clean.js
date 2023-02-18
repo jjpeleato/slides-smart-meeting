@@ -12,10 +12,13 @@ import del from 'del';
 function clean()
 {
 	return del([
-		config.paths.sassAssets.dest,
 		config.paths.sassAssets.destVendor,
-		config.paths.jsAssets.dest,
+		config.paths.sassAssets.dest,
 		config.paths.jsAssets.destVendor,
+		config.paths.jsAssets.dest,
+		config.paths.imgAssets.destVendor,
+		config.paths.imgAssets.dest,
+		config.paths.fontawesome.dest,
 	]);
 }
 

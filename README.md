@@ -78,7 +78,12 @@ For more information visit:
 	- `$lando gulp clean` Delete all files.
 	- `$lando gulp css` Compile SASS to CSS and validate SASS according Stylelint (https://stylelint.io/). Not concat.
 	- `$lando gulp cssAssets` Copy CSS assets to public directory.
+	- `$lando gulp copyCssFontawesome` Copy Fontawesome CSS assets to public directory.
+	- `$lando gulp copyWebfontsFontawesome` Copy Fontawesome webfont assets to public directory.
 	- `$lando gulp fontAssets` Copy fonts assets to public directory.
+	- `$lando gulp fontawesome` Copy fontawesome assets to public directory.
+	- `$lando gulp images` Copy and minify image assets to public directory.
+	- `$lando gulp imagesAssets` Copy and minify other image assets to public directory.
 	- `$lando gulp js` Validate the code with JSHint. Minify the JS files.
 	- `$lando gulp jsAssets` Copy JS assets to public directory.
 	- `$lando gulp jsCopy` Copy another JS assets to public directory.
