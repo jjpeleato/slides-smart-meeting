@@ -1,5 +1,4 @@
-Contact: mailto:foobar@example.com
-Contact: https://example.com/#contact
-Expires: 2030-12-31T22:59:00.000Z
-Preferred-Languages: en
-Canonical: https://www.example.com/.well-known/security.txt
+Contact: https://www.jjpeleato.com/#contact
+Expires: 2050-12-31T22:59:00.000Z
+Preferred-Languages: es
+Canonical: https://jjpeleato.com/courses/smartmeeting/.well-known/security.txt
