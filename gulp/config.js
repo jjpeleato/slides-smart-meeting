@@ -62,6 +62,15 @@ const paths = {
 		dest: theme + 'img/',
 		destVendor: theme + 'img/vendor/'
 	},
+	fontawesome: {
+		css: [
+			'./node_modules/@fortawesome/fontawesome-free/css/*',
+		],
+		webfonts: [
+			'./node_modules/@fortawesome/fontawesome-free/webfonts/*',
+		],
+		dest: theme + "fontawesome/",
+	}
 };
 
 /* Options */
