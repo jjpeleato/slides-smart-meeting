@@ -131,7 +131,7 @@ The present project uses several technologies and tools for the automation and d
 
 ### Others clarifications
 
-1. It is possible that on Mac OS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
+1. It is possible that on macOS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
 
 ## Finally
 
