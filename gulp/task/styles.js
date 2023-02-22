@@ -39,7 +39,6 @@ function css()
 		.pipe(sourcemaps.init())
 		.pipe(sass(config.options.sass).on('error', sass.logError))
 		.pipe(config.environment === 'production' ? uglifycss(config.options.uglifyCss) : noop())
-		.pipe(config.environment === 'production' ? rename({ suffix: '.min' }) : noop())
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(config.paths.sassAssets.dest));
 }
