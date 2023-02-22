@@ -9,7 +9,7 @@ Inspired by the [#NoMeetings](https://nomeetings.work/) project.
 - LOCAL: http://web.smartmeeting.lndo.site/
 - DEV: ~
 - PRE: ~
-- PRO: ~
+- PRO: https://jjpeleato.com/courses/smartmeeting/
 
 ## Project
 
