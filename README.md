@@ -9,7 +9,7 @@ Inspired by the [#NoMeetings](https://nomeetings.work/) project.
 - LOCAL: http://web.smartmeeting.lndo.site/
 - DEV: ~
 - PRE: ~
-- PRO: ~
+- PRO: https://jjpeleato.com/courses/smartmeeting/
 
 ## Project
 
@@ -25,10 +25,10 @@ If Lando's tools does not work for you, there is another way. You must install t
 
 For more information visit:
 
-- XAMP: https://www.apachefriends.org/es/index.html
-- Node and NPM: https://nodejs.org/es/
-- Yarn: https://yarnpkg.com/es-ES/
-- Gulp: https://gulpjs.com/
+- [XAMP](https://www.apachefriends.org/es/index.html)
+- [Node and NPM](https://nodejs.org/es/)
+- [Yarn](https://yarnpkg.com/es-ES/)
+- [Gulp](https://gulpjs.com/)
 
 **Notes:**
 - If you work with Windows < 10. To execute the commands, we recommend installing [Cygwin](http://www.cygwin.com/).
@@ -76,7 +76,7 @@ For more information visit:
 - To work with and compile your SASS and JS files on the fly start: `$lando gulp`, `$lando npm run gulp:dev` or `$lando npm run gulp:prod`
 - Gulp actions commands list:
 	- `$lando gulp clean` Delete all files.
-	- `$lando gulp css` Compile SASS to CSS and validate SASS according Stylelint (https://stylelint.io/). Not concat.
+	- `$lando gulp css` Compile SASS to CSS and validate SASS according Stylelint. Not concat.
 	- `$lando gulp cssAssets` Copy CSS assets to public directory.
 	- `$lando gulp copyCssFontawesome` Copy Fontawesome CSS assets to public directory.
 	- `$lando gulp copyWebfontsFontawesome` Copy Fontawesome webfont assets to public directory.
@@ -87,9 +87,9 @@ For more information visit:
 	- `$lando gulp js` Validate the code with JSHint. Minify the JS files.
 	- `$lando gulp jsAssets` Copy JS assets to public directory.
 	- `$lando gulp jsCopy` Copy another JS assets to public directory.
-	- `$lando gulp validate` Validate JS with JSHint (https://jshint.com/) and SCSS according Stylint (https://stylelint.io/).
-	- `$lando gulp validateJs` Validate JS with JSHint (https://jshint.com/).
-	- `$lando gulp validateScss` Validate SCSS according Stylint (https://stylelint.io/).
+	- `$lando gulp validate` Validate JS with JSHint and SCSS according Stylelint.
+	- `$lando gulp validateJs` Validate JS with JSHint.
+	- `$lando gulp validateScss` Validate SCSS according Stylelint.
 	- `$lando gulp watch` Compile SASS to CSS and concat and minify JS files in real-time.
 - NPM actions commands list:
 	- `$lando npm run prepare` Enable Git hooks. **Important: Run always after npm install.**
@@ -105,17 +105,21 @@ The present project uses several technologies and tools for the automation and d
 2. [Lando](https://docs.devwithlando.io/)
 3. [Docker](https://www.docker.com/)
 4. [Git](https://git-scm.com/)
-5. [Apache](https://www.apache.org/)
+5. [Nginx](https://www.nginx.com/)
 6. [Node.js](https://nodejs.org/)
 7. [NPM](https://www.npmjs.com/)
 8. [Yarn](https://yarnpkg.com/)
 9. [Gulp](https://gulpjs.com/)
-10. [EditorConfig](https://editorconfig.org/)
-11. [Husky](https://www.npmjs.com/package/husky)
-12. [Commitlint](https://commitlint.js.org/)
-13. [Commitizen](http://commitizen.github.io/cz-cli/)
-14. [Human.txt](http://humanstxt.org/)
-15. [Security.txt](https://securitytxt.org/)
+10. [JSHint](https://jshint.com/)
+11. [Stylelint](https://stylelint.io/)
+12. [Fontawesome](https://fontawesome.com/)
+13. [EditorConfig](https://editorconfig.org/)
+14. [Husky](https://www.npmjs.com/package/husky)
+15. [Conventional Commits](https://www.conventionalcommits.org/)
+16. [Commitlint](https://commitlint.js.org/)
+17. [Commitizen](http://commitizen.github.io/cz-cli/)
+18. [Human.txt](http://humanstxt.org/)
+19. [Security.txt](https://securitytxt.org/)
 
 **Note:** Thanks all people to work on these projects.
 
@@ -127,7 +131,7 @@ The present project uses several technologies and tools for the automation and d
 
 ### Others clarifications
 
-1. It is possible that on Mac OS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
+1. It is possible that on macOS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
 
 ## Finally
 

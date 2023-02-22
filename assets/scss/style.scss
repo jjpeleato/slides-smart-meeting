@@ -63,4 +63,13 @@
   .h6 {
     font-size: var(--r-heading6-size);
   }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .img-768 {
+    max-width: 768px;
+    height: auto;
+  }
 }
