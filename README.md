@@ -61,18 +61,19 @@ For more information visit:
 ### Installing
 
 1. Run `git clone https://github.com/jjpeleato/slides-starter-boilerplate.git slides-project`
-2. Open the `initialize.sh` and edit the GIT variable with the new repository. I recommend SSH connection. Example: `git@github.com:jjpeleato/slides-starter-boilerplate.git`.
+2. Open the `initialize.sh` file and edit the GIT variable with the new repository. I recommend SSH connection. Example: `git@github.com:jjpeleato/slides-starter-boilerplate.git`.
 3. Run `sh initialize.sh`.
-4. Open the `README.md` and rename the name of presentation, name of project and description.
-5. Open the `lando.yml` and rename the project and proxy name.
-6. Open your terminal and browse to the root location of your project.
-7. Run `$lando start`.
+4. For security. Open the `initialize.sh` file and edit the GIT variable to `~`.
+5. Open the `README.md` and rename the name of presentation, name of project and description.
+6. Open the `lando.yml` and rename the project and proxy name.
+7. Open your terminal and browse to the root location of your project.
+8. Run `$lando start`.
 	- The project has a `.lando.yml` file with all the environment settings.
 	- The command starts the installation process when it finishes, you can see all the URLs to access.
-8. If required. Run: `$lando npm install --save-dev` or `$lando yarn install --dev`.
-9. If required. Run: `$lando npm run prepare`.
-10. If required. Run: `$lando npm run gulp:prod`.
-11. End. Happy developing.
+9. If required. Run: `$lando npm install --save-dev` or `$lando yarn install --dev`.
+10. If required. Run: `$lando npm run prepare`.
+11. If required. Run: `$lando npm run gulp:prod`.
+12. End. Happy developing.
 
 ### Developing with NPM or Yarn and Gulp
 
