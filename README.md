@@ -31,8 +31,8 @@ For more information visit:
 - [Gulp](https://gulpjs.com/)
 
 **Notes:**
-- If you work with Windows < 10. To execute the commands, we recommend installing [Cygwin](http://www.cygwin.com/).
-- If you work with Windows 10. To execute the commands, we recommend installing [WSL 2 with Ubuntu](https://docs.microsoft.com/es-es/windows/wsl/install-win10).
+- If you work with Windows < 10. To execute the commands, I recommend installing [Cygwin](http://www.cygwin.com/).
+- If you work with Windows 10. To execute the commands, I recommend installing [WSL 2 with Ubuntu](https://docs.microsoft.com/es-es/windows/wsl/install-win10).
 - If you work with Windows 10. You need install the following package [win-node-env](https://www.npmjs.com/package/win-node-env).
 - I recommend installing the following IDE for PHP Programming: [PHPStorm](https://www.jetbrains.com/phpstorm/) (recommended) or [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -60,15 +60,19 @@ For more information visit:
 
 ### Installing
 
-1. Open the `README.md` and rename the name of presentation, name of project and description.
-2. Open the `lando.yml` and rename the project and proxy name.
-3. Open your terminal and browse to the root location of your project.
-4. Run `$lando start`.
+1. Run `git clone https://github.com/jjpeleato/slides-starter-boilerplate.git slides-project`
+2. Open the `initialize.sh` and edit the GIT variable with the new repository. I recommend SSH connection. Example: `git@github.com:jjpeleato/slides-starter-boilerplate.git`.
+3. Run `sh initialize.sh`.
+4. Open the `README.md` and rename the name of presentation, name of project and description.
+5. Open the `lando.yml` and rename the project and proxy name.
+6. Open your terminal and browse to the root location of your project.
+7. Run `$lando start`.
 	- The project has a `.lando.yml` file with all the environment settings.
 	- The command starts the installation process when it finishes, you can see all the URLs to access.
-5. If required. Run: `$lando npm install --save-dev` or `$lando yarn install --dev`.
-6. If required. Run: `$lando npm run prepare`.
-7. End. Happy developing.
+8. If required. Run: `$lando npm install --save-dev` or `$lando yarn install --dev`.
+9. If required. Run: `$lando npm run prepare`.
+10. If required. Run: `$lando npm run gulp:prod`.
+11. End. Happy developing.
 
 ### Developing with NPM or Yarn and Gulp
 
